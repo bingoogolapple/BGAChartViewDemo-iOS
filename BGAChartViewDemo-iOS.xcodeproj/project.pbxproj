@@ -1,0 +1,510 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		311E609E1B29CF460074D627 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 311E609D1B29CF460074D627 /* main.m */; };
+		311E60A91B29CF460074D627 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 311E60A81B29CF460074D627 /* Images.xcassets */; };
+		311E60AC1B29CF460074D627 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 311E60AA1B29CF460074D627 /* LaunchScreen.xib */; };
+		311E60B81B29CF470074D627 /* BGAChartViewDemo_iOSTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 311E60B71B29CF470074D627 /* BGAChartViewDemo_iOSTests.m */; };
+		311E60CD1B29D0D10074D627 /* MBProgressHUD+MJ.m in Sources */ = {isa = PBXBuildFile; fileRef = 311E60C71B29D0D10074D627 /* MBProgressHUD+MJ.m */; };
+		311E60CE1B29D0D10074D627 /* MBProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 311E60C81B29D0D10074D627 /* MBProgressHUD.bundle */; };
+		311E60CF1B29D0D10074D627 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 311E60CA1B29D0D10074D627 /* MBProgressHUD.m */; };
+		311E60D21B29D17D0074D627 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 311E60D11B29D17D0074D627 /* AppDelegate.m */; };
+		311E60D51B29D1930074D627 /* BGAViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 311E60D41B29D1930074D627 /* BGAViewController.m */; };
+		311E60D81B29D26F0074D627 /* BGABarChartView.m in Sources */ = {isa = PBXBuildFile; fileRef = 311E60D71B29D26F0074D627 /* BGABarChartView.m */; };
+		311E60DE1B29D74C0074D627 /* NSString+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 311E60DD1B29D74C0074D627 /* NSString+Extension.m */; };
+		311E60E11B29EFA20074D627 /* UIColor+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 311E60E01B29EFA20074D627 /* UIColor+Extension.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		311E60B21B29CF470074D627 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 311E60901B29CF460074D627 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 311E60971B29CF460074D627;
+			remoteInfo = "BGAChartViewDemo-iOS";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		311E60981B29CF460074D627 /* BGAChartViewDemo-iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "BGAChartViewDemo-iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		311E609C1B29CF460074D627 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		311E609D1B29CF460074D627 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		311E60A81B29CF460074D627 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		311E60AB1B29CF460074D627 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		311E60B11B29CF470074D627 /* BGAChartViewDemo-iOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "BGAChartViewDemo-iOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		311E60B61B29CF470074D627 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		311E60B71B29CF470074D627 /* BGAChartViewDemo_iOSTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BGAChartViewDemo_iOSTests.m; sourceTree = "<group>"; };
+		311E60C61B29D0D10074D627 /* MBProgressHUD+MJ.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MBProgressHUD+MJ.h"; sourceTree = "<group>"; };
+		311E60C71B29D0D10074D627 /* MBProgressHUD+MJ.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MBProgressHUD+MJ.m"; sourceTree = "<group>"; };
+		311E60C81B29D0D10074D627 /* MBProgressHUD.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = MBProgressHUD.bundle; sourceTree = "<group>"; };
+		311E60C91B29D0D10074D627 /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
+		311E60CA1B29D0D10074D627 /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
+		311E60D01B29D17D0074D627 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		311E60D11B29D17D0074D627 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		311E60D31B29D1930074D627 /* BGAViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BGAViewController.h; sourceTree = "<group>"; };
+		311E60D41B29D1930074D627 /* BGAViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BGAViewController.m; sourceTree = "<group>"; };
+		311E60D61B29D26F0074D627 /* BGABarChartView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BGABarChartView.h; sourceTree = "<group>"; };
+		311E60D71B29D26F0074D627 /* BGABarChartView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BGABarChartView.m; sourceTree = "<group>"; };
+		311E60DC1B29D74C0074D627 /* NSString+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Extension.h"; sourceTree = "<group>"; };
+		311E60DD1B29D74C0074D627 /* NSString+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Extension.m"; sourceTree = "<group>"; };
+		311E60DF1B29EFA20074D627 /* UIColor+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Extension.h"; sourceTree = "<group>"; };
+		311E60E01B29EFA20074D627 /* UIColor+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Extension.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		311E60951B29CF460074D627 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		311E60AE1B29CF470074D627 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		311E608F1B29CF460074D627 = {
+			isa = PBXGroup;
+			children = (
+				311E609A1B29CF460074D627 /* BGAChartViewDemo-iOS */,
+				311E60B41B29CF470074D627 /* BGAChartViewDemo-iOSTests */,
+				311E60991B29CF460074D627 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		311E60991B29CF460074D627 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				311E60981B29CF460074D627 /* BGAChartViewDemo-iOS.app */,
+				311E60B11B29CF470074D627 /* BGAChartViewDemo-iOSTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		311E609A1B29CF460074D627 /* BGAChartViewDemo-iOS */ = {
+			isa = PBXGroup;
+			children = (
+				311E60C11B29D0D10074D627 /* Classes */,
+				311E609B1B29CF460074D627 /* Supporting Files */,
+			);
+			path = "BGAChartViewDemo-iOS";
+			sourceTree = "<group>";
+		};
+		311E609B1B29CF460074D627 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				311E60A81B29CF460074D627 /* Images.xcassets */,
+				311E60AA1B29CF460074D627 /* LaunchScreen.xib */,
+				311E609C1B29CF460074D627 /* Info.plist */,
+				311E609D1B29CF460074D627 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		311E60B41B29CF470074D627 /* BGAChartViewDemo-iOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				311E60B71B29CF470074D627 /* BGAChartViewDemo_iOSTests.m */,
+				311E60B51B29CF470074D627 /* Supporting Files */,
+			);
+			path = "BGAChartViewDemo-iOSTests";
+			sourceTree = "<group>";
+		};
+		311E60B51B29CF470074D627 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				311E60B61B29CF470074D627 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		311E60C11B29D0D10074D627 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				311E60C21B29D0D10074D627 /* Category */,
+				311E60C31B29D0D10074D627 /* Controller */,
+				311E60C41B29D0D10074D627 /* Lib */,
+				311E60CB1B29D0D10074D627 /* Other */,
+				311E60CC1B29D0D10074D627 /* View */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		311E60C21B29D0D10074D627 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				311E60DC1B29D74C0074D627 /* NSString+Extension.h */,
+				311E60DD1B29D74C0074D627 /* NSString+Extension.m */,
+				311E60DF1B29EFA20074D627 /* UIColor+Extension.h */,
+				311E60E01B29EFA20074D627 /* UIColor+Extension.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		311E60C31B29D0D10074D627 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				311E60D31B29D1930074D627 /* BGAViewController.h */,
+				311E60D41B29D1930074D627 /* BGAViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		311E60C41B29D0D10074D627 /* Lib */ = {
+			isa = PBXGroup;
+			children = (
+				311E60C51B29D0D10074D627 /* MBProgressHUD */,
+			);
+			path = Lib;
+			sourceTree = "<group>";
+		};
+		311E60C51B29D0D10074D627 /* MBProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				311E60C61B29D0D10074D627 /* MBProgressHUD+MJ.h */,
+				311E60C71B29D0D10074D627 /* MBProgressHUD+MJ.m */,
+				311E60C81B29D0D10074D627 /* MBProgressHUD.bundle */,
+				311E60C91B29D0D10074D627 /* MBProgressHUD.h */,
+				311E60CA1B29D0D10074D627 /* MBProgressHUD.m */,
+			);
+			path = MBProgressHUD;
+			sourceTree = "<group>";
+		};
+		311E60CB1B29D0D10074D627 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				311E60D01B29D17D0074D627 /* AppDelegate.h */,
+				311E60D11B29D17D0074D627 /* AppDelegate.m */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		311E60CC1B29D0D10074D627 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				311E60D61B29D26F0074D627 /* BGABarChartView.h */,
+				311E60D71B29D26F0074D627 /* BGABarChartView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		311E60971B29CF460074D627 /* BGAChartViewDemo-iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 311E60BB1B29CF470074D627 /* Build configuration list for PBXNativeTarget "BGAChartViewDemo-iOS" */;
+			buildPhases = (
+				311E60941B29CF460074D627 /* Sources */,
+				311E60951B29CF460074D627 /* Frameworks */,
+				311E60961B29CF460074D627 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "BGAChartViewDemo-iOS";
+			productName = "BGAChartViewDemo-iOS";
+			productReference = 311E60981B29CF460074D627 /* BGAChartViewDemo-iOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		311E60B01B29CF470074D627 /* BGAChartViewDemo-iOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 311E60BE1B29CF470074D627 /* Build configuration list for PBXNativeTarget "BGAChartViewDemo-iOSTests" */;
+			buildPhases = (
+				311E60AD1B29CF470074D627 /* Sources */,
+				311E60AE1B29CF470074D627 /* Frameworks */,
+				311E60AF1B29CF470074D627 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				311E60B31B29CF470074D627 /* PBXTargetDependency */,
+			);
+			name = "BGAChartViewDemo-iOSTests";
+			productName = "BGAChartViewDemo-iOSTests";
+			productReference = 311E60B11B29CF470074D627 /* BGAChartViewDemo-iOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		311E60901B29CF460074D627 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = BGA;
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = bingoogolapple;
+				TargetAttributes = {
+					311E60971B29CF460074D627 = {
+						CreatedOnToolsVersion = 6.3.2;
+					};
+					311E60B01B29CF470074D627 = {
+						CreatedOnToolsVersion = 6.3.2;
+						TestTargetID = 311E60971B29CF460074D627;
+					};
+				};
+			};
+			buildConfigurationList = 311E60931B29CF460074D627 /* Build configuration list for PBXProject "BGAChartViewDemo-iOS" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 311E608F1B29CF460074D627;
+			productRefGroup = 311E60991B29CF460074D627 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				311E60971B29CF460074D627 /* BGAChartViewDemo-iOS */,
+				311E60B01B29CF470074D627 /* BGAChartViewDemo-iOSTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		311E60961B29CF460074D627 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				311E60AC1B29CF460074D627 /* LaunchScreen.xib in Resources */,
+				311E60A91B29CF460074D627 /* Images.xcassets in Resources */,
+				311E60CE1B29D0D10074D627 /* MBProgressHUD.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		311E60AF1B29CF470074D627 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		311E60941B29CF460074D627 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				311E60D21B29D17D0074D627 /* AppDelegate.m in Sources */,
+				311E60CD1B29D0D10074D627 /* MBProgressHUD+MJ.m in Sources */,
+				311E60D81B29D26F0074D627 /* BGABarChartView.m in Sources */,
+				311E60E11B29EFA20074D627 /* UIColor+Extension.m in Sources */,
+				311E609E1B29CF460074D627 /* main.m in Sources */,
+				311E60D51B29D1930074D627 /* BGAViewController.m in Sources */,
+				311E60CF1B29D0D10074D627 /* MBProgressHUD.m in Sources */,
+				311E60DE1B29D74C0074D627 /* NSString+Extension.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		311E60AD1B29CF470074D627 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				311E60B81B29CF470074D627 /* BGAChartViewDemo_iOSTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		311E60B31B29CF470074D627 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 311E60971B29CF460074D627 /* BGAChartViewDemo-iOS */;
+			targetProxy = 311E60B21B29CF470074D627 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		311E60AA1B29CF460074D627 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				311E60AB1B29CF460074D627 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		311E60B91B29CF470074D627 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		311E60BA1B29CF470074D627 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		311E60BC1B29CF470074D627 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "BGAChartViewDemo-iOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		311E60BD1B29CF470074D627 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "BGAChartViewDemo-iOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		311E60BF1B29CF470074D627 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "BGAChartViewDemo-iOSTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BGAChartViewDemo-iOS.app/BGAChartViewDemo-iOS";
+			};
+			name = Debug;
+		};
+		311E60C01B29CF470074D627 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "BGAChartViewDemo-iOSTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BGAChartViewDemo-iOS.app/BGAChartViewDemo-iOS";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		311E60931B29CF460074D627 /* Build configuration list for PBXProject "BGAChartViewDemo-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				311E60B91B29CF470074D627 /* Debug */,
+				311E60BA1B29CF470074D627 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		311E60BB1B29CF470074D627 /* Build configuration list for PBXNativeTarget "BGAChartViewDemo-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				311E60BC1B29CF470074D627 /* Debug */,
+				311E60BD1B29CF470074D627 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		311E60BE1B29CF470074D627 /* Build configuration list for PBXNativeTarget "BGAChartViewDemo-iOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				311E60BF1B29CF470074D627 /* Debug */,
+				311E60C01B29CF470074D627 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 311E60901B29CF460074D627 /* Project object */;
+}
